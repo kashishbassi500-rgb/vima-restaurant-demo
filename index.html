@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#651c2c" />
+    <meta name="description" content="Explore VIMA, an Indian restaurant website demonstration inspired by Rajasthan. Browse a sample menu, try demo ordering, and submit reservation requests." />
+    <meta property="og:title" content="VIMA | Indian Dining Demo" />
+    <meta property="og:description" content="Where Indian Tradition Meets Memorable Dining. A restaurant website demonstration." />
+    <meta property="og:type" content="website" />
+    <title>VIMA | Indian Restaurant Demo</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "VIMA (Demo)",
+        "servesCuisine": "Indian",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ABC Street",
+          "addressLocality": "Sikar",
+          "addressRegion": "Rajasthan",
+          "addressCountry": "IN"
+        },
+        "telephone": "+91 9780400240",
+        "openingHours": "Mo-Su 05:30-22:00",
+        "description": "Demonstration website. Address, hours, contact and menu are unverified sample data."
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
